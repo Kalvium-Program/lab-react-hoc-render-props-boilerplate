@@ -4,6 +4,7 @@ import HigherOrderComponent from './HigherOrderComponent'
 const {count,handleUpdate} = props
 
   return (
+    
     <div>
       <button onClick={handleUpdate}>Like Post {count}</button>
     </div>
