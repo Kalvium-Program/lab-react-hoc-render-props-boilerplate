@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import HigherOrderComponent from './HigherOrderComponent'
  function LikePost(props) {
 const {count,handleUpdate} = props
